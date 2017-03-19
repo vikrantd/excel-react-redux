@@ -7,7 +7,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/vikrantd/microsheet.git"
+    "url": "https://github.com/vikrantd/excel-react-redux.git"
   },
   "scripts": {
     "clean": "rm -rf ./build",
