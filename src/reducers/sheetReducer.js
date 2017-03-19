@@ -6,7 +6,7 @@ import * as coordinateUtils from '../utils/coordinateUtils';
 
 
 var initialState = {};
-if(window.localStorage.getItem('excel_data') != 0){
+if(window.localStorage.getItem('excel_data') != null){
   var json = JSON.parse(window.localStorage.getItem('excel_data'));
   initialState = Immutable.fromJS(json);
 } 
